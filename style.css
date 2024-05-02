@@ -6,11 +6,6 @@
     padding: 0;
 }
 
-.topico1, .topico3{
-    background-color: rgb(75, 75, 75);
-    
-    
-}
 body{
     display: flex;
     justify-content: center;
@@ -36,7 +31,7 @@ header{
     align-items: center;
     flex-direction: column;
     
-    background-color: rgba(3, 3, 3, 0.877);
+    background-color: rgb(58, 58, 58);
     width: 100%;
     height: 200px;
     border-radius: 10px 10px 0px 0px;
@@ -84,22 +79,22 @@ section{
     flex-direction: column;
     padding: 30px 100px;
     
-
+    
     text-align: center;
     
 }
 
 .destaque{
     color: red;
-    text-shadow: 0px 0px 10px black;
+    
 }
 
 h1{
-    color: black;
+    color: white;
     font-family: "Sedgwick Ave Display", cursive;
     font-weight: lighter;
     font-style: normal;
-    text-shadow: -3px 3px 0px white;
+    text-shadow: -3px 3px 0px rgb(51, 51, 51);
     font-size: 70px;
     
 }
@@ -112,14 +107,19 @@ main > section > p{
 }
 
 
+.topico1, .topico3{
+    background-color: black;
+    
+    
+}
 
 .topico2{
-    background-color: black;
+    background-color: rgb(75, 75, 75);
 }
 
 .fundo-black{
     color: white;
-    text-shadow: -3px 3px 0px rgb(44, 44, 44);
+    text-shadow: -3px 3px 0px rgb(0, 0, 0);
 }
 
 @media screen and (max-width: 735px) {
