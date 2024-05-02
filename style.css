@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.topico1, .topico3{
+    background-color: rgb(75, 75, 75);
+    
+    
+}
+body{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    
+    background-image: url('imagens/fundo3.avif');
+    position: absolute;
+    background-position: center;
+    
+}
+
+.corpo{
+    width: 96%;
+}
+
+.topico3{
+    border-radius: 0px 0px 10px 10px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    background-color: rgba(3, 3, 3, 0.877);
+    width: 100%;
+    height: 200px;
+    border-radius: 10px 10px 0px 0px;
+    
+}
+
+.img-logo{
+    width: 200px;
+}
+
+.menu-opcoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 60px;
+}
+
+.menu-opcoes li{
+    color: white;
+    font-size: 20px;
+    list-style-type: none;
+    
+    font-family: "Sedgwick Ave Display", cursive;
+    font-weight: lighter;
+    font-style: normal;
+    text-shadow: -3px 3px 0px black;
+    border-radius: 10px;
+    padding: 5px;
+    
+    
+}
+
+.menu-opcoes li:hover{
+    cursor: pointer;
+    background-color: rgb(56, 56, 56);
+    
+}
+
+
+/*Main*/
+
+section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 100px;
+    
+
+    text-align: center;
+    
+}
+
+.destaque{
+    color: red;
+    text-shadow: 0px 0px 10px black;
+}
+
+h1{
+    color: black;
+    font-family: "Sedgwick Ave Display", cursive;
+    font-weight: lighter;
+    font-style: normal;
+    text-shadow: -3px 3px 0px white;
+    font-size: 70px;
+    
+}
+
+main > section > p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    margin: 10px 0px;
+}
+
+
+
+.topico2{
+    background-color: black;
+}
+
+.fundo-black{
+    color: white;
+    text-shadow: -3px 3px 0px rgb(44, 44, 44);
+}
+
+@media screen and (max-width: 735px) {
+
+    .menu-opcoes{
+        column-gap: 40px;
+    }
+    .menu-opcoes li{
+        font-size: 17px;
+        padding: 0;
+    }
+
+    .menu-opcoes li:hover{
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    h1{
+        font-size: 60px;
+    }
+
+    section{
+        padding: 20px;
+    }
+
+    p{
+        font-size: 14px;
+    }
+
+}
