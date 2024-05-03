@@ -122,6 +122,10 @@ main > section > p{
     text-shadow: -3px 3px 0px rgb(0, 0, 0);
 }
 
+.img-crew{
+    width: 90%;
+}
+
 @media screen and (max-width: 735px) {
 
     .menu-opcoes{
